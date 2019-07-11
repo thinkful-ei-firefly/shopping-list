@@ -16,7 +16,7 @@
     <form id="js-shopping-list-form">
       <label for="shopping-list-entry">Add an item</label>
       <input type="text" name="shopping-list-entry" id="shopping-list-entry" placeholder="e.g., broccoli">
-      <button type="submit">Add item</button>
+      <button type="submit" class ="item-adder">Add item</button>
     </form>
 
     <ul class="shopping-list">
@@ -24,10 +24,10 @@
         <span class="shopping-item">apples</span>
         <div class="shopping-item-controls">
           <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
+            <span class="button-label check-label">check</span>
           </button>
           <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
+            <span class="button-label check-label">delete</span>
           </button>
         </div>
       </li>
@@ -35,10 +35,10 @@
         <span class="shopping-item">oranges</span>
         <div class="shopping-item-controls">
           <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
+            <span class="button-label check-label">check</span>
           </button>
           <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
+            <span class="button-label check-label">delete</span>
           </button>
         </div>
       </li>
@@ -66,6 +66,10 @@
       </li>
     </ul>
   </div>
-
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
 </body>
 </html>
